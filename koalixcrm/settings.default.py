@@ -62,7 +62,7 @@ USE_TZ = True
 
 # Absolute filesystem path to the directory that will hold user-uploaded files.
 # Example: "/home/media/media.lawrence.com/media/"
-MEDIA_ROOT = root_path('media')
+MEDIA_ROOT = root_path('media')+'/'
 
 # URL that handles the media served from MEDIA_ROOT. Make sure to use a
 # trailing slash.
@@ -204,3 +204,11 @@ try:
     from .local_settings import *
 except ImportError:
     pass
+
+# Filebrowser settings
+FILEBROWSER_MEDIA_ROOT = MEDIA_ROOT
+FILEBROWSER_MEDIA_URL = MEDIA_URL
+
+# CRM setting
+PROJECT_ROOT = ROOT+'/'
+PDF_OUTPUT_ROOT = MEDIA_ROOT+'pdf/'
