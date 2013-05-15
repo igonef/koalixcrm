@@ -1,0 +1,224 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-15 06:38-0500\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+
+#: admin.py:25 admin.py:70
+msgid "Basic"
+msgstr ""
+
+#: admin.py:48
+msgid "The open liabilites account must be a liabities account"
+msgstr ""
+
+#: admin.py:50
+msgid "There may only be one open liablities account in the system"
+msgstr ""
+
+#: admin.py:54
+msgid "The open intrests account must be an asset account"
+msgstr ""
+
+#: admin.py:56
+msgid "There may only be one open intrests account in the system"
+msgstr ""
+
+#: admin.py:59
+msgid "A customer payment account must be an asset account"
+msgstr ""
+
+#: admin.py:62
+msgid "A product inventory account must be an asset account"
+msgstr ""
+
+#: admin.py:86
+msgid "The begin date cannot be later than the end date."
+msgstr ""
+
+#: admin.py:88
+msgid "The begin and the end date may not be empty"
+msgstr ""
+
+#: admin.py:97 admin.py:134
+msgid "Basics"
+msgstr ""
+
+#: admin.py:120
+msgid "Create PDF of Balance Sheet"
+msgstr ""
+
+#: admin.py:126
+msgid "Create PDF of Profit Loss Statement Sheet"
+msgstr ""
+
+#: models.py:19
+msgid "Title"
+msgstr ""
+
+#: models.py:20
+msgid "Begin"
+msgstr ""
+
+#: models.py:21
+msgid "End"
+msgstr ""
+
+#: models.py:46
+msgid "During BalanceSheet PDF Export"
+msgstr ""
+
+#: models.py:120
+msgid "Accounting Period"
+msgstr ""
+
+#: models.py:121
+msgid "Accounting Periods"
+msgstr ""
+
+#: models.py:124
+msgid "Account Number"
+msgstr ""
+
+#: models.py:125
+msgid "Account Title"
+msgstr ""
+
+#: models.py:126
+msgid "Account Type"
+msgstr ""
+
+#: models.py:127 models.py:193
+msgid "Description"
+msgstr ""
+
+#: models.py:128
+msgid "Original Amount"
+msgstr ""
+
+#: models.py:129
+msgid "Is The Open Liabilities Account"
+msgstr ""
+
+#: models.py:130
+msgid "Is The Open Interests Account"
+msgstr ""
+
+#: models.py:131
+msgid "Is a Product Inventory Account"
+msgstr ""
+
+#: models.py:132
+msgid "Is a Customer Payment Account"
+msgstr ""
+
+#: models.py:173 models.py:174
+msgid "Account"
+msgstr ""
+
+#: models.py:178
+msgid "Product Categorie Title"
+msgstr ""
+
+#: models.py:179
+msgid "Profit Account"
+msgstr ""
+
+#: models.py:180
+msgid "Loss Account"
+msgstr ""
+
+#: models.py:184
+msgid "Product Categorie"
+msgstr ""
+
+#: models.py:185
+msgid "Product Categories"
+msgstr ""
+
+#: models.py:190
+msgid "From Account"
+msgstr ""
+
+#: models.py:191
+msgid "To Account"
+msgstr ""
+
+#: models.py:192
+msgid "Amount"
+msgstr ""
+
+#: models.py:194
+msgid "Booking Reference"
+msgstr ""
+
+#: models.py:195
+msgid "Booking at"
+msgstr ""
+
+#: models.py:196
+msgid "AccountingPeriod"
+msgstr ""
+
+#: models.py:197
+msgid "Reference Staff"
+msgstr ""
+
+#: models.py:198
+msgid "Created at"
+msgstr ""
+
+#: models.py:199
+msgid "Last modified"
+msgstr ""
+
+#: models.py:200
+msgid "Last modified by"
+msgstr ""
+
+#: models.py:207
+msgid "Booking"
+msgstr ""
+
+#: models.py:208
+msgid "Bookings"
+msgstr ""
+
+#: views.py:34
+msgid "User Extension Missing"
+msgstr ""
+
+#: views.py:37
+msgid "Templateset Missing"
+msgstr ""
+
+#: const/accountTypeChoices.py:6
+msgid "Earnings"
+msgstr ""
+
+#: const/accountTypeChoices.py:7
+msgid "Spendings"
+msgstr ""
+
+#: const/accountTypeChoices.py:8
+msgid "Liabilities"
+msgstr ""
+
+#: const/accountTypeChoices.py:9
+msgid "Assets"
+msgstr ""
