@@ -180,8 +180,6 @@ class Migration(SchemaMigration):
             ('id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('taxrate', self.gf('django.db.models.fields.DecimalField')(max_digits=5, decimal_places=2)),
             ('name', self.gf('django.db.models.fields.CharField')(max_length=100)),
-            ('accountActiva', self.gf('django.db.models.fields.related.ForeignKey')(blank=True, related_name='db_relaccountactiva', null=True, to=orm['accounting.Account'])),
-            ('accountPassiva', self.gf('django.db.models.fields.related.ForeignKey')(blank=True, related_name='db_relaccountpassiva', null=True, to=orm['accounting.Account'])),
         ))
         db.send_create_signal('crm', ['Tax'])
 
@@ -196,7 +194,6 @@ class Migration(SchemaMigration):
             ('lastmodification', self.gf('django.db.models.fields.DateTimeField')(auto_now_add=True, blank=True)),
             ('lastmodifiedby', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['auth.User'], null=True, blank='True')),
             ('tax', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['crm.Tax'])),
-            ('accoutingProductCategorie', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['accounting.ProductCategorie'], null=True, blank='True')),
         ))
         db.send_create_signal('crm', ['Product'])
 
@@ -475,24 +472,6 @@ class Migration(SchemaMigration):
 
 
     models = {
-        'accounting.account': {
-            'Meta': {'ordering': "['accountNumber']", 'object_name': 'Account'},
-            'accountNumber': ('django.db.models.fields.IntegerField', [], {}),
-            'accountType': ('django.db.models.fields.CharField', [], {'max_length': '1'}),
-            'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'isACustomerPaymentAccount': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
-            'isProductInventoryActiva': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
-            'isopeninterestaccount': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
-            'isopenreliabilitiesaccount': ('django.db.models.fields.BooleanField', [], {'default': 'False'}),
-            'title': ('django.db.models.fields.CharField', [], {'max_length': '50'})
-        },
-        'accounting.productcategorie': {
-            'Meta': {'object_name': 'ProductCategorie'},
-            'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'lossAccount': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'db_loss_account'", 'to': "orm['accounting.Account']"}),
-            'profitAccount': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'db_profit_account'", 'to': "orm['accounting.Account']"}),
-            'title': ('django.db.models.fields.CharField', [], {'max_length': '50'})
-        },
         'auth.group': {
             'Meta': {'object_name': 'Group'},
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
@@ -717,7 +696,6 @@ class Migration(SchemaMigration):
         },
         'crm.product': {
             'Meta': {'object_name': 'Product'},
-            'accoutingProductCategorie': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['accounting.ProductCategorie']", 'null': 'True', 'blank': "'True'"}),
             'dateofcreation': ('django.db.models.fields.DateTimeField', [], {'auto_now': 'True', 'blank': 'True'}),
             'defaultunit': ('django.db.models.fields.related.ForeignKey', [], {'to': "orm['crm.Unit']"}),
             'description': ('django.db.models.fields.TextField', [], {'null': 'True', 'blank': 'True'}),
@@ -785,8 +763,6 @@ class Migration(SchemaMigration):
         },
         'crm.tax': {
             'Meta': {'object_name': 'Tax'},
-            'accountActiva': ('django.db.models.fields.related.ForeignKey', [], {'blank': 'True', 'related_name': "'db_relaccountactiva'", 'null': 'True', 'to': "orm['accounting.Account']"}),
-            'accountPassiva': ('django.db.models.fields.related.ForeignKey', [], {'blank': 'True', 'related_name': "'db_relaccountpassiva'", 'null': 'True', 'to': "orm['accounting.Account']"}),
             'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
             'name': ('django.db.models.fields.CharField', [], {'max_length': '100'}),
             'taxrate': ('django.db.models.fields.DecimalField', [], {'max_digits': '5', 'decimal_places': '2'})
