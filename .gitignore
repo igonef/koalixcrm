@@ -20,4 +20,6 @@ pip-log.txt
 .coverage
 .tox
 *~
+/media/*
+*/media/*
 
