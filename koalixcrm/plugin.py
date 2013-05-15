@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 import os
 import sys
-from settings import *
+from .settings import *
 
 class PluginProcessor(object):
   def converttorelativestring(self, pluginmodule, nameofinline):

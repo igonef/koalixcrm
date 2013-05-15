@@ -11,7 +11,7 @@ from django.utils.translation import ugettext as _
 from django.db.models import signals
 from xml.dom.minidom import Document
 from datetime import *
-import settings
+from django.conf import settings
 import djangoUserExtension
 
    

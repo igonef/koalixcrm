@@ -15,7 +15,7 @@ import djangoUserExtension
 from django.contrib import auth
 from lxml import etree
 import accounting 
-import settings
+from django.conf import settings
 import copy
 from subprocess import *
 
@@ -437,8 +437,8 @@ class Invoice(SalesContract):
    payableuntil = models.DateField(verbose_name = _("To pay until"))
    derivatedFromQuote = models.ForeignKey(Quote, blank=True, null=True)
    paymentBankReference = models.CharField(verbose_name = _("Payment Bank Reference"), max_length=100, blank=True, null=True)
-   status = models.CharField(max_length=1, choices=INVOICESTATUS) 
-   
+   status = models.CharField(max_length=1, choices=INVOICESTATUS)
+
    def registerinvoiceinaccounting(self, request):
       dictprices = dict()
       dicttax = dict()
@@ -449,7 +449,7 @@ class Invoice(SalesContract):
         profitaccount = position.product.accoutingProductCategorie.profitAccount
         dictprices[profitaccount] = position.lastCalculatedPrice
         dicttax[profitaccount] = position.lastCalculatedTax
-         
+
       for booking in accounting.models.Booking.objects.filter(accountingPeriod=currentValidAccountingPeriod):
         if booking.bookingReference == self:
           raise InvoiceAlreadyRegistered()
@@ -464,7 +464,7 @@ class Invoice(SalesContract):
           booking.amount = amount
           booking.lastmodifiedby = request.user
           booking.save()
-      
+
    def registerpaymentinaccounting(self, request, paymentaccount, amount, date):
       activaaccount = accounting.Account.objects.filter(isopeninterestaccount=True)
       booking = accounting.Booking()
@@ -482,8 +482,8 @@ class Invoice(SalesContract):
      XMLSerializer = serializers.get_serializer("xml")
      xml_serializer = XMLSerializer()
      out = open(settings.PDF_OUTPUT_ROOT+"invoice_"+str(self.id)+".xml", "w")
-     objectsToSerialize = list(Invoice.objects.filter(id=self.id)) 
-     objectsToSerialize += list(SalesContract.objects.filter(id=self.id)) 
+     objectsToSerialize = list(Invoice.objects.filter(id=self.id))
+     objectsToSerialize += list(SalesContract.objects.filter(id=self.id))
      objectsToSerialize += list(Contact.objects.filter(id=self.customer.id))
      objectsToSerialize += list(Currency.objects.filter(id=self.currency.id))
      objectsToSerialize += list(SalesContractPosition.objects.filter(contract=self.id))
@@ -518,11 +518,11 @@ class Invoice(SalesContract):
         return settings.PDF_OUTPUT_ROOT+"invoice_"+str(self.id)+".pdf"
      else:
         check_output(['/usr/bin/fop', '-c', userExtension[0].defaultTemplateSet.fopConfigurationFile.path, '-xml', settings.PDF_OUTPUT_ROOT+'invoice_'+str(self.id)+'.xml', '-xsl', userExtension[0].defaultTemplateSet.deilveryorderXSLFile.xslfile.path, '-pdf', settings.PDF_OUTPUT_ROOT+'deliveryorder_'+str(self.id)+'.pdf'], stderr=STDOUT)
-        return settings.PDF_OUTPUT_ROOT+"deliveryorder_"+str(self.id)+".pdf"  
+        return settings.PDF_OUTPUT_ROOT+"deliveryorder_"+str(self.id)+".pdf"
 
 #  TODO: def registerPayment(self, amount, registerpaymentinaccounting):
    def __unicode__(self):
-      return _("Invoice")+ ": " + str(self.id) + " "+_("from Contract")+": " + str(self.contract.id) 
+      return _("Invoice")+ ": " + str(self.id) + " "+_("from Contract")+": " + str(self.contract.id)
       
    class Meta:
       app_label = "crm"

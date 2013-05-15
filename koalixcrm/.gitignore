@@ -1,0 +1,6 @@
+*.py[co]
+
+/local_settings.py
+/settings.py
+/urls.py
+
