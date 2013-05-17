@@ -42,7 +42,7 @@
               color="black"
               text-align="left"
               font-weight="bold">
-        Balanancesheet of  <xsl:value-of select="organisationname"/>
+              Бухгалтерский баланс <xsl:value-of select="organisationname"/>
        </fo:block>
       </fo:static-content>
     <fo:static-content flow-name="xsl-region-after" >
@@ -78,7 +78,7 @@
        <fo:block font-size="9pt"
               font-family="BitstreamVeraSans"
               text-align="left"
-              line-height="13pt" >Assets</fo:block>
+              line-height="13pt" >Активные</fo:block>
        <fo:table table-layout="fixed" width="100%">
           <fo:table-column column-width="3cm"/>
           <fo:table-column column-width="11cm"/>
@@ -86,17 +86,17 @@
      <fo:table-header font-size="9pt" line-height="9pt" font-weight="bold" font-family="BitstreamVeraSans">
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Account Number
+                      Номер счета
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Account
+                      Счет
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Value
+                      Значение
                    </fo:block>
                 </fo:table-cell>
              </fo:table-header>
@@ -133,7 +133,7 @@
               font-family="BitstreamVeraSans"
               text-align="left"
               line-height="13pt"
-              padding-top="0.7cm">Liabilities</fo:block>
+              padding-top="0.7cm">Пассивные</fo:block>
        <fo:table table-layout="fixed" width="100%">
           <fo:table-column column-width="3cm"/>
           <fo:table-column column-width="11cm"/>
@@ -141,17 +141,17 @@
             <fo:table-header font-size="9pt" line-height="9pt" font-weight="bold" font-family="BitstreamVeraSans">
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" font-size="9pt" line-height="9pt" font-weight="bold" font-family="BitstreamVeraSans" >
-                      Account Number
+                       Номер счета
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Account
+                      Счет
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Value
+                      Значение
                    </fo:block>
                 </fo:table-cell>
              </fo:table-header>
@@ -183,7 +183,7 @@
               font-family="BitstreamVeraSans"
               text-align="left"
               line-height="13pt"
-              padding-top="0.7cm">Profit/Loss</fo:block>
+              padding-top="0.7cm">Прибыль/Убыток</fo:block>
        <fo:table table-layout="fixed" width="100%">
           <fo:table-column column-width="3cm"/>
           <fo:table-column column-width="11cm"/>
@@ -195,9 +195,9 @@
                    <fo:block  text-align="start" >
                       <xsl:choose>
                         <xsl:when test="TotalBalance &gt; 0">
-                          Profit</xsl:when>
+                          Прибыль</xsl:when>
                         <xsl:otherwise>
-                          Loss
+                          Убыток
                         </xsl:otherwise>
                       </xsl:choose>
                    </fo:block>
@@ -208,7 +208,7 @@
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      <xsl:value-of select="format-number(TotalBalance,'#.##0,00', 'european')"/> CHF
+                      <xsl:value-of select="format-number(TotalBalance,'#.##0,00', 'european')"/> RUR
                    </fo:block>
                 </fo:table-cell>
              </fo:table-row>

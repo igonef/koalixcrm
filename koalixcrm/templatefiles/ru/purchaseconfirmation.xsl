@@ -44,40 +44,40 @@
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left"
-              font-weight="bold">Erstelldatum:</fo:block>
+              font-weight="bold">Создан:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left">&#8201; </fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Kundennummer:</fo:block>
+              text-align="left">Заказчик №:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Auftragsnummer:</fo:block>
-            <fo:block font-size="7pt"
-              font-family="BitstreamVeraSans"
-              text-align="left">&#8201; </fo:block>
-            <fo:block font-size="7pt"
-              font-family="BitstreamVeraSans"
-              text-align="left">MwSt.-Nummer:</fo:block>
-            <fo:block font-size="7pt"
-              font-family="BitstreamVeraSans"
-              text-align="left">Postkonto:</fo:block>
-            <fo:block font-size="7pt"
-              font-family="BitstreamVeraSans"
-              text-align="left">Gültig bis:</fo:block>
+              text-align="left">Контракт №:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left">&#8201; </fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Ansprechpartner:</fo:block>
+              text-align="left">ИНН:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Telefon Direkt:</fo:block>
+              text-align="left">IBAN:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">E-mail Direkt:</fo:block>
+              text-align="left">Оплатить до:</fo:block>
+            <fo:block font-size="7pt"
+              font-family="BitstreamVeraSans"
+              text-align="left">&#8201; </fo:block>
+            <fo:block font-size="7pt"
+              font-family="BitstreamVeraSans"
+              text-align="left">Ответственное лицо:</fo:block>
+            <fo:block font-size="7pt"
+              font-family="BitstreamVeraSans"
+              text-align="left">Прямой телефон:</fo:block>
+            <fo:block font-size="7pt"
+              font-family="BitstreamVeraSans"
+              text-align="left">Прямой E-mail:</fo:block>
           </fo:table-cell>
           <fo:table-cell>
             <fo:block font-size="7pt"
@@ -90,16 +90,16 @@
               text-align="left">&#8201; </fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">KU-<xsl:value-of select="object[@model='crm.contact']/@pk"/></fo:block>
+              text-align="left">CU-<xsl:value-of select="object[@model='crm.contact']/@pk"/></fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">RE-<xsl:value-of select="object[@model='crm.salescontract']/field[@name='contract']"/></fo:block>
+              text-align="left">CO-<xsl:value-of select="object[@model='crm.salescontract']/field[@name='contract']"/></fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left">&#8201; </fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">keine</fo:block>
+              text-align="left">none</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left">PC 000054545</fo:block>
@@ -244,32 +244,32 @@
       <fo:table-header font-size="9pt" line-height="9pt" font-weight="bold" font-family="BitstreamVeraSans">
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Pos.
+                       № пп
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Beschreibung
+                       Описание
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Anzahl
+                       Количество
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Einzelpreis
+                      Цена
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Rabatt
+                      Скидка
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Betrag
+                      Сумма
                    </fo:block>
                 </fo:table-cell>
              </fo:table-header>
@@ -348,7 +348,7 @@
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Zwischensumme
+                      Промежуточный итог
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
@@ -369,7 +369,7 @@
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                     MwSt.
+                     Налог
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
@@ -390,7 +390,7 @@
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" font-weight="bold">
-                      Total
+                      Всего
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">

@@ -50,40 +50,40 @@
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left"
-              font-weight="bold">Created at:</fo:block>
+              font-weight="bold">Создан:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left"><fo:leader leader-pattern="space"/></fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Customer Nr:</fo:block>
+              text-align="left">Заказчик №:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Contract Nr:</fo:block>
+              text-align="left">Контракт №:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left"><fo:leader leader-pattern="space"/></fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Tax Ref Nr:</fo:block>
+              text-align="left">ИНН:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left">IBAN:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Payable until:</fo:block>
+              text-align="left">Оплатить до:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
               text-align="left"><fo:leader leader-pattern="space"/></fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Responsible Person:</fo:block>
+              text-align="left">Ответственное лицо:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">Phone direkt:</fo:block>
+              text-align="left">Прямой телефон:</fo:block>
             <fo:block font-size="7pt"
               font-family="BitstreamVeraSans"
-              text-align="left">E-mail direkt:</fo:block>
+              text-align="left">Прямой E-mail:</fo:block>
           </fo:table-cell>
           <fo:table-cell>
             <fo:block font-size="7pt"
@@ -200,7 +200,7 @@
               text-align="left"
               font-weight="bold"
               margin-top="1cm">
-        Invoice IN-<xsl:value-of select="object[@model='crm.salescontract']/@pk"/>
+        Счет на оплату в-<xsl:value-of select="object[@model='crm.salescontract']/@pk"/>
        </fo:block>
         <fo:block font-size="9pt"
               font-family="BitstreamVeraSans"
@@ -241,7 +241,7 @@
             <fo:block font-size="8pt"
               font-family="BitstreamVeraSans"
               font-weight="bold"
-              text-align="end">Page <fo:page-number/>/<fo:page-number-citation ref-id="last-page"/></fo:block>
+              text-align="end">Страница <fo:page-number/>/<fo:page-number-citation ref-id="last-page"/></fo:block>
            </fo:table-cell>
          </fo:table-row>
         </fo:table-body>
@@ -264,37 +264,37 @@
      <fo:table-header font-size="9pt" line-height="9pt" font-weight="bold" font-family="BitstreamVeraSans">
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Pos.
+                      № пп
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Description
+                      Описание
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Quantity
+                      Количество
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Unit
+                      Единица
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Price per Unit
+                      Цена за единицу
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Discount
+                      Скидка
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="end" >
-                      Amount
+                      Сумма
                    </fo:block>
                 </fo:table-cell>
              </fo:table-header>
@@ -407,7 +407,7 @@
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                      Subtotal
+                       Итого
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
@@ -428,7 +428,7 @@
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" >
-                     Tax
+                     Налог
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
@@ -449,7 +449,7 @@
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
                    <fo:block  text-align="start" font-weight="bold">
-                      Total
+                      Всего
                    </fo:block>
                 </fo:table-cell>
                 <fo:table-cell number-columns-spanned="2" border-color="black" border-style="solid" border-width="0.5pt" padding="2.5pt">
