@@ -22,1650 +22,1653 @@ msgstr ""
 #: admin.py:133 admin.py:149 admin.py:166 admin.py:183 admin.py:257
 #: admin.py:359 admin.py:434 admin.py:488
 msgid "Basics"
-msgstr ""
+msgstr "Основные"
 
 #: admin.py:136 admin.py:152 admin.py:169
 msgid "Advanced (not editable)"
-msgstr ""
+msgstr "Дополнительно (не изменяемые)"
 
 #: admin.py:194
 msgid "PurchaseOrder created"
-msgstr ""
+msgstr "ЗаказНаПокупку создан"
 
 #: admin.py:197
 msgid "Create Purchaseorder"
-msgstr ""
+msgstr "Создать ЗаказНаПокупку"
 
 #: admin.py:202 const/status.py:17
 msgid "Quote created"
-msgstr ""
+msgstr "Квота создана"
 
 #: admin.py:205 admin.py:548
 msgid "Create Quote"
-msgstr ""
+msgstr "Создать квоту"
 
 #: admin.py:210 admin.py:405 const/status.py:7
 msgid "Invoice created"
-msgstr ""
+msgstr "Счет на оплату создан"
 
 #: admin.py:213 admin.py:408 admin.py:555
 msgid "Create Invoice"
-msgstr ""
+msgstr "Создать счет на оплату"
 
 #: admin.py:298 admin.py:400
 msgid "Recalculate Prices"
-msgstr ""
+msgstr "Пересчитать цены"
 
 #: admin.py:304
 msgid "Create PDF of Invoice"
-msgstr ""
+msgstr "Создать PDF для счета на оплату"
 
 #: admin.py:310
 msgid "Create PDF of Delivery Order"
-msgstr ""
+msgstr "Создать PDF для счета на отправку"
 
 #: admin.py:315
 msgid "Successfully registered Invoice in the Accounting"
-msgstr ""
+msgstr "Счет на оплату успешно зарегистрирован в бухгалтерском учете"
 
 #: admin.py:316
 msgid "Register Invoice in Accounting"
-msgstr ""
+msgstr "Зарегистрировать счет на оплату в бухгалтерском учете"
 
 #: admin.py:328
 msgid "Canceled registeration of payment in the accounting"
-msgstr ""
+msgstr "Регистрация платежа в бухгалтерском учете прервана"
 
 #: admin.py:337
 msgid "Successfully registered Payment in the Accounting"
-msgstr ""
+msgstr "Платеж успешно зарегистрирован в бухгалтерском учете"
 
 #: admin.py:344
 msgid "Register Payment in Accounting"
-msgstr ""
+msgstr "Зарегистрировать платеж в бухгалтерском учете"
 
 #: admin.py:396
 msgid "Successfully recalculated Prices"
-msgstr ""
+msgstr "Цены успешно пересчитаны"
 
 #: admin.py:398
 msgid "Unsuccessfull in updating the Prices "
-msgstr ""
+msgstr "Неудача при изменении цен"
 
 #: admin.py:414
 msgid "Create PDF of Quote"
-msgstr ""
+msgstr "Создать PDF для квоты"
 
 #: admin.py:420
 msgid "Create PDF of Purchase Confirmation"
-msgstr ""
+msgstr "Создать PDF для соглашения о покупке"
 
 #: admin.py:451
 msgid "Create PDF of Purchase Order"
-msgstr ""
+msgstr "Создать PDF для заказа на покупку"
 
 #: admin.py:541
 msgid "Create Contract"
-msgstr ""
+msgstr "Создать контакт"
 
 #: models.py:23 models.py:151 models.py:210 models.py:296 models.py:533
 #: models.py:565 models.py:709
 msgid "Description"
-msgstr ""
+msgstr "Описание"
 
 #: models.py:24
 msgid "Displayed Name After Price In The Position"
-msgstr ""
+msgstr "Отображаемое имя после цены в строке"
 
 #: models.py:25
 msgid "Rounding"
-msgstr ""
+msgstr "Округление"
 
 #: models.py:32 models.py:33 models.py:216 models.py:302
 msgid "Currency"
-msgstr ""
+msgstr "Валюта"
 
 #: models.py:36
 msgid "Prefix"
-msgstr ""
+msgstr "Префикс"
 
 #: models.py:37 models.py:70 models.py:81
 msgid "Name"
-msgstr ""
+msgstr "Имя"
 
 #: models.py:38
 msgid "Prename"
-msgstr ""
+msgstr "Пред-имя"
 
 #: models.py:39
 msgid "Addressline 1"
-msgstr ""
+msgstr "Адрес 1"
 
 #: models.py:40
 msgid "Addressline 2"
-msgstr ""
+msgstr "Адрес 2"
 
 #: models.py:41
 msgid "Addressline 3"
-msgstr ""
+msgstr "Адрес 3"
 
 #: models.py:42
 msgid "Addressline 4"
-msgstr ""
+msgstr "Адрес 4"
 
 #: models.py:43
 msgid "Zipcode"
-msgstr ""
+msgstr "Почтовый индекс"
 
 #: models.py:44
 msgid "City"
-msgstr ""
+msgstr "Город"
 
 #: models.py:45
 msgid "State"
-msgstr ""
+msgstr "Область"
 
 #: models.py:46
 msgid "Country"
-msgstr ""
+msgstr "Страна"
 
 #: models.py:50 models.py:51
 msgid "Postal Address"
-msgstr ""
+msgstr "Почтовый адрес"
 
 #: models.py:54
 msgid "Phone Number"
-msgstr ""
+msgstr "Номер телефона"
 
 #: models.py:58 models.py:59
 msgid "Phone Address"
-msgstr ""
+msgstr "Адрес телефона"
 
 #: models.py:62 models.py:66 models.py:67
 msgid "Email Address"
-msgstr ""
+msgstr "Email-адрес"
 
 #: models.py:71 models.py:155 models.py:217 models.py:303 models.py:569
 msgid "Created at"
-msgstr ""
+msgstr "Создано"
 
 #: models.py:72 models.py:156 models.py:218 models.py:304 models.py:570
 msgid "Last modified"
-msgstr ""
+msgstr "Изменено"
 
 #: models.py:73 models.py:157 models.py:219 models.py:305 models.py:571
 msgid "Last modified by"
-msgstr ""
+msgstr "Изменил"
 
 #: models.py:77 models.py:78
 msgid "Contact"
-msgstr ""
+msgstr "Контакт"
 
 #: models.py:82
 msgid "Days To Payment Date"
-msgstr ""
+msgstr "Дней до даты платежа"
 
 #: models.py:85 models.py:86
 msgid "Customer Billing Cycle"
-msgstr ""
+msgstr "Цикл платежа заказчика"
 
 #: models.py:99 models.py:667
 msgid "Customer Group"
-msgstr ""
+msgstr "Группа заказчика"
 
 #: models.py:100
 msgid "Customer Groups"
-msgstr ""
+msgstr "Группы заказчиков"
 
 #: models.py:103
 msgid "Default Billing Cycle"
-msgstr ""
+msgstr "Цикл платежа по умолчанию"
 
 #: models.py:104
 msgid "Is member of"
-msgstr ""
+msgstr "Является членом"
 
 #: models.py:133 models.py:300
 msgid "Customer"
-msgstr ""
+msgstr "Заказчик"
 
 #: models.py:134
 msgid "Customers"
-msgstr ""
+msgstr "Заказчики"
 
 #: models.py:140
 msgid "Offers Shipment to Customer"
-msgstr ""
+msgstr "Предложения отгрузки заказчику"
 
 #: models.py:143 models.py:144 models.py:209
 msgid "Supplier"
-msgstr ""
+msgstr "Поставщик"
 
 #: models.py:150 models.py:215 models.py:301
 msgid "Staff"
-msgstr ""
+msgstr "Персонал"
 
 #: models.py:152
 msgid "Default Customer"
-msgstr ""
+msgstr "Заказчик по умолчанию"
 
 #: models.py:153
 msgid "Default Supplier"
-msgstr ""
+msgstr "Поставщик по умолчанию"
 
 #: models.py:154
 msgid "Default Currency"
-msgstr ""
+msgstr "Валюта по умолчанию"
 
 #: models.py:161 models.py:204 models.py:207 models.py:293 models.py:750
 #: models.py:762
 msgid "Contract"
-msgstr ""
+msgstr "Контракт"
 
 #: models.py:162
 msgid "Contracts"
-msgstr ""
+msgstr "Контракты"
 
 #: models.py:208 models.py:294
 msgid "External Reference"
-msgstr ""
+msgstr "Внешняя ссылка"
 
 #: models.py:211 models.py:297 models.py:718
 msgid "Last Pricing Date"
-msgstr ""
+msgstr "Дата последней цены"
 
 #: models.py:212 models.py:298
 msgid "Last Calculted Price With Tax"
-msgstr ""
+msgstr "Последняя рассчитанная цена с налогом"
 
 #: models.py:213 models.py:299 models.py:720
 msgid "Last Calculted Tax"
-msgstr ""
+msgstr "Последни рассчитанный налог"
 
 #: models.py:267 models.py:273
 msgid "During PurchaseOrder PDF Export"
-msgstr ""
+msgstr "Во время экспорта в PDF ЗаказаНаПокупку"
 
 #: models.py:286 models.py:287 models.py:290
 msgid "Purchase Order"
-msgstr ""
+msgstr "Заказ на покупку"
 
 #: models.py:290 models.py:341 models.py:429 models.py:525
 msgid "from Contract"
-msgstr ""
+msgstr "по котракту"
 
 #: models.py:295 models.py:710
 msgid "Discount"
-msgstr ""
+msgstr "Скидка"
 
 #: models.py:337 models.py:341
 msgid "Sales Contract"
-msgstr ""
+msgstr "Контракт на поставку"
 
 #: models.py:338
 msgid "Sales Contracts"
-msgstr ""
+msgstr "Контракты на поставку"
 
 #: models.py:344 models.py:670
 msgid "Valid until"
-msgstr ""
+msgstr "Действительно до"
 
 #: models.py:345
 msgid "Status"
-msgstr ""
+msgstr "Статус"
 
 #: models.py:402 models.py:408
 msgid "During Quote PDF Export"
-msgstr ""
+msgstr "Во время экспорта в PDF квоты"
 
 #: models.py:429 models.py:433
 msgid "Quote"
-msgstr ""
+msgstr "Квота"
 
 #: models.py:434
 msgid "Quotes"
-msgstr ""
+msgstr "Квоты"
 
 #: models.py:437
 msgid "To pay until"
-msgstr ""
+msgstr "Оплатить до "
 
 #: models.py:439
 msgid "Payment Bank Reference"
-msgstr ""
+msgstr "Ссылка на банк платежа"
 
 #: models.py:497 models.py:503
 msgid "During Invoice PDF Export"
-msgstr ""
+msgstr "Во время экспорта в PDF счета на оплату"
 
 #: models.py:525 models.py:529
 msgid "Invoice"
-msgstr ""
+msgstr "Счет на оплату"
 
 #: models.py:530
 msgid "Invoices"
-msgstr ""
+msgstr "Счета на оплату"
 
 #: models.py:534
 msgid "Displayed Name After Quantity In The Position"
-msgstr ""
+msgstr "Отображаемое има после количества в строке"
 
 #: models.py:535
 msgid "Is A Fraction Of"
-msgstr ""
+msgstr "Является частью"
 
 #: models.py:536
 msgid "Factor Between This And Next Higher Unit"
-msgstr ""
+msgstr "Фактор между текущей и старшей единицей"
 
 #: models.py:543 models.py:568 models.py:665 models.py:712
 msgid "Unit"
-msgstr ""
+msgstr "Единица"
 
 #: models.py:544
 msgid "Units"
-msgstr ""
+msgstr "Единицы"
 
 #: models.py:547
 msgid "Taxrate in Percentage"
-msgstr ""
+msgstr "Процент налога"
 
 #: models.py:548
 msgid "Taxname"
-msgstr ""
+msgstr "Наименование налога"
 
 #: models.py:549
 msgid "Activa Account"
-msgstr ""
+msgstr "Активный счет"
 
 #: models.py:550
 msgid "Passiva Account"
-msgstr ""
+msgstr "Пассивный счет"
 
 #: models.py:560
 msgid "Tax"
-msgstr ""
+msgstr "Налог"
 
 #: models.py:561
 msgid "Taxes"
-msgstr ""
+msgstr "Налоги"
 
 #: models.py:566
 msgid "Title"
-msgstr ""
+msgstr "Наименование"
 
 #: models.py:567
 msgid "Product Number"
-msgstr ""
+msgstr "Номер продукта"
 
 #: models.py:573
 msgid "Accounting Product Categorie"
-msgstr ""
+msgstr "Категория продукта в бухалтерском учете"
 
 #: models.py:609 models.py:626 models.py:646 models.py:664 models.py:711
 msgid "Product"
-msgstr ""
+msgstr "Продукт"
 
 #: models.py:610
 msgid "Products"
-msgstr ""
+msgstr "Продукты"
 
 #: models.py:620
 msgid "There is no Price for this product"
-msgstr ""
+msgstr "Для этого продукта нет цены"
 
 #: models.py:620
 msgid "that matches the date"
-msgstr ""
+msgstr "что соответствует дате"
 
 #: models.py:620
 msgid "customer"
-msgstr ""
+msgstr "заказчик"
 
 #: models.py:620
 msgid " and unit"
-msgstr ""
+msgstr " и единица"
 
 #: models.py:624 models.py:644
 msgid "From Unit"
-msgstr ""
+msgstr "От единицы"
 
 #: models.py:625 models.py:645
 msgid "To Unit"
-msgstr ""
+msgstr "До единицы"
 
 #: models.py:627
 msgid "Factor between From and To Unit"
-msgstr ""
+msgstr "Фактор между От и До единиц"
 
 #: models.py:640
 msgid "Unit Transfrom"
-msgstr ""
+msgstr "Преобразование единицы"
 
 #: models.py:641
 msgid "Unit Transfroms"
-msgstr ""
+msgstr "Преобразование единиц"
 
 #: models.py:647
 msgid "Factor between From and To Customer Group"
-msgstr ""
+msgstr "Фактор между от и до Группы заказчиков"
 
 #: models.py:660
 msgid "Customer Group Price Transfrom"
-msgstr ""
+msgstr "Преобразование цены для группы заказчиков"
 
 #: models.py:661
 msgid "Customer Group Price Transfroms"
-msgstr ""
+msgstr "Преобразования цены для группы заказчиков"
 
 #: models.py:668 models.py:717
 msgid "Price Per Unit"
-msgstr ""
+msgstr "Цена за единицу"
 
 #: models.py:669
 msgid "Valid from"
-msgstr ""
+msgstr "Верно с"
 
 #: models.py:703
 msgid "Price"
-msgstr ""
+msgstr "Цена"
 
 #: models.py:704
 msgid "Prices"
-msgstr ""
+msgstr "Цены"
 
 #: models.py:707
 msgid "Position Number"
-msgstr ""
+msgstr "Номер строки"
 
 #: models.py:708
 msgid "Quantity"
-msgstr ""
+msgstr "Количество"
 
 #: models.py:713
 msgid "Shipment on"
-msgstr ""
+msgstr "Отправка включена"
 
 #: models.py:714
 msgid "Shipment Supplier"
-msgstr ""
+msgstr "Поставщик отправки"
 
 #: models.py:715
 msgid "Shipment ID"
-msgstr ""
+msgstr "ID отправки"
 
 #: models.py:716
 msgid "Overwrite Product Price"
-msgstr ""
+msgstr "Переписать цену проукта"
 
 #: models.py:719
 msgid "Last Calculted Price"
-msgstr ""
+msgstr "Последняя расчитанная цена"
 
 #: models.py:742 models.py:746
 msgid "Position"
-msgstr ""
+msgstr "Строка"
 
 #: models.py:747
 msgid "Positions"
-msgstr ""
+msgstr "Строки"
 
 #: models.py:754 models.py:758
 msgid "Salescontract Position"
-msgstr ""
+msgstr "Строка контракта на поставку"
 
 #: models.py:755
 msgid "Salescontract Positions"
-msgstr ""
+msgstr "Строки контрактов на поставку"
 
 #: models.py:766 models.py:770
 msgid "Purchaseorder Position"
-msgstr ""
+msgstr "Строка заказа на покупку"
 
 #: models.py:767
 msgid "Purchaseorder Positions"
-msgstr ""
+msgstr "Строки заказов на покупку"
 
 #: models.py:773 models.py:785 models.py:797 models.py:809 models.py:821
 #: models.py:833 models.py:845 models.py:857 models.py:869 models.py:881
 #: models.py:893 models.py:905
 msgid "Purpose"
-msgstr ""
+msgstr "Назначение"
 
 #: models.py:778 models.py:779
 msgid "Phone Address For Contact"
-msgstr ""
+msgstr "Адрес телефона из контракта"
 
 #: models.py:790 models.py:791
 msgid "Email Address For Contact"
-msgstr ""
+msgstr "Email-адрес из контракта"
 
 #: models.py:802 models.py:803
 msgid "Postal Address For Contact"
-msgstr ""
+msgstr "Почтовый адрес из контракта"
 
 #: models.py:814 models.py:815 models.py:826 models.py:827 models.py:838
 #: models.py:839
 msgid "Postal Address For Contracts"
-msgstr ""
+msgstr "Почтовый адрес из конрактов"
 
 #: models.py:850 models.py:851 models.py:862 models.py:863 models.py:874
 #: models.py:875
 msgid "Phone Address For Contracts"
-msgstr ""
+msgstr "Адрес телефона из контрактов"
 
 #: models.py:886 models.py:887 models.py:898 models.py:899 models.py:910
 #: models.py:911
 msgid "Email Address For Contracts"
-msgstr ""
+msgstr "Email-адрес из контрактов"
 
 #: views.py:38
 msgid "User Extension Missing"
-msgstr ""
+msgstr "Нет расширения пользователя"
 
 #: views.py:41
 msgid "Templateset Missing"
-msgstr ""
+msgstr "Нет набора шаблонов"
 
 #: const/country.py:6
 msgid "Afghanistan"
-msgstr ""
+msgstr "Афганистан"
 
 #: const/country.py:7
 msgid "Aland Islands"
-msgstr ""
+msgstr "Аландские острова"
 
 #: const/country.py:8
 msgid "Albania"
-msgstr ""
+msgstr "Албания"
 
 #: const/country.py:9
 msgid "Algeria"
-msgstr ""
+msgstr "Алжир"
 
 #: const/country.py:10
 msgid "American Samoa"
-msgstr ""
+msgstr "Американские Самоа"
 
 #: const/country.py:11
 msgid "Andorra"
-msgstr ""
+msgstr "Андорра"
 
 #: const/country.py:12
 msgid "Angola"
-msgstr ""
+msgstr "Ангола"
 
 #: const/country.py:13
 msgid "Anguilla"
-msgstr ""
+msgstr "Ангилья"
 
 #: const/country.py:14
 msgid "Antarctica"
-msgstr ""
+msgstr "Антарктида"
 
 #: const/country.py:15
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Антигуа и Барбуда"
 
 #: const/country.py:16
 msgid "Argentina"
-msgstr ""
+msgstr "Аргентина"
 
 #: const/country.py:17
 msgid "Armenia"
-msgstr ""
+msgstr "Армения"
 
 #: const/country.py:18
 msgid "Aruba"
-msgstr ""
+msgstr "Аруба"
 
 #: const/country.py:19
 msgid "Australia"
-msgstr ""
+msgstr "Австралия"
 
 #: const/country.py:20
 msgid "Austria"
-msgstr ""
+msgstr "Австрия"
 
 #: const/country.py:21
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Азербайджан"
 
 #: const/country.py:22
 msgid "the Bahamas"
-msgstr ""
+msgstr "Багамы"
 
 #: const/country.py:23
 msgid "Bahrain"
-msgstr ""
+msgstr "Бахрейн"
 
 #: const/country.py:24
 msgid "Bangladesh"
-msgstr ""
+msgstr "Бангладеш"
 
 #: const/country.py:25
 msgid "Barbados"
-msgstr ""
+msgstr "Барбадос"
 
 #: const/country.py:26
 msgid "Belarus"
-msgstr ""
+msgstr "Беларусь"
 
 #: const/country.py:27
 msgid "Belgium"
-msgstr ""
+msgstr "Бельгия"
 
 #: const/country.py:28
 msgid "Belize"
-msgstr ""
+msgstr "Белиз"
 
 #: const/country.py:29
 msgid "Benin"
-msgstr ""
+msgstr "Бенин"
 
 #: const/country.py:30
 msgid "Bermuda"
-msgstr ""
+msgstr "Бермудские острова"
 
 #: const/country.py:31
 msgid "Bhutan"
-msgstr ""
+msgstr "Бутан"
 
 #: const/country.py:32
 msgid "Bolivia"
-msgstr ""
+msgstr "Боливия"
 
 #: const/country.py:33
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Босния и Герцеговина"
 
 #: const/country.py:34
 msgid "Botswana"
-msgstr ""
+msgstr "Ботсвана"
 
 #: const/country.py:35
 msgid "Bouvet Island"
-msgstr ""
+msgstr "Остров Буве"
 
 #: const/country.py:36
 msgid "Brazil"
-msgstr ""
+msgstr "Бразилия"
 
 #: const/country.py:37
 msgid "British Indian Ocean Territory"
-msgstr ""
+msgstr "Британские территории в Индийском океане"
 
 #: const/country.py:38
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Бруней-Даруссалам"
 
 #: const/country.py:39
 msgid "Bulgaria"
-msgstr ""
+msgstr "Болгария"
 
 #: const/country.py:40
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Буркина-Фасо"
 
 #: const/country.py:41
 msgid "Burundi"
-msgstr ""
+msgstr "Бурунди"
 
 #: const/country.py:42
 msgid "Cambodia"
-msgstr ""
+msgstr "Камбоджа"
 
 #: const/country.py:43
 msgid "Cameroon"
-msgstr ""
+msgstr "Камерун"
 
 #: const/country.py:44
 msgid "Canada"
-msgstr ""
+msgstr "Канада"
 
 #: const/country.py:45
 msgid "Cape Verde"
-msgstr ""
+msgstr "Кабо-Верде"
 
 #: const/country.py:46
 msgid "Cayman Islands"
-msgstr ""
+msgstr "Каймановы острова"
 
 #: const/country.py:47
 msgid "Central African Republic"
-msgstr ""
+msgstr "Центрально-Африканская Республика"
 
 #: const/country.py:48
 msgid "Chad"
-msgstr ""
+msgstr "Xfl"
 
 #: const/country.py:49
 msgid "Chile"
-msgstr ""
+msgstr "Чили"
 
 #: const/country.py:50
 msgid "China"
-msgstr ""
+msgstr "Китай"
 
 #: const/country.py:51
 msgid "Christmas Island"
-msgstr ""
+msgstr "Остров Рождества"
 
 #: const/country.py:52
 msgid "Cocos (Keeling) Islands"
-msgstr ""
+msgstr "Кокосовые (Килинг) острова"
 
 #: const/country.py:53
 msgid "Colombia"
-msgstr ""
+msgstr "Колумбия"
 
 #: const/country.py:54
 msgid "Comoros"
-msgstr ""
+msgstr "Коморские острова"
 
 #: const/country.py:55
 msgid "Congo"
-msgstr ""
+msgstr "Конго"
 
 #: const/country.py:56
 msgid "Democratic Republic of the Congo"
-msgstr ""
+msgstr "Демократическая республика Конго"
 
 #: const/country.py:57
 msgid "Cook Islands"
-msgstr ""
+msgstr "Острова Кука"
 
 #: const/country.py:58
 msgid "Costa Rica"
-msgstr ""
+msgstr "Коста-Рика"
 
 #: const/country.py:59
 msgid "Cote d'Ivoire"
-msgstr ""
+msgstr "Берег Слоновой Кости"
 
 #: const/country.py:60
 msgid "Croatia"
-msgstr ""
+msgstr "Хорватия"
 
 #: const/country.py:61
 msgid "Cuba"
-msgstr ""
+msgstr "Куба"
 
 #: const/country.py:62
 msgid "Cyprus"
-msgstr ""
+msgstr "Кипр"
 
 #: const/country.py:63
 msgid "Czech Republic"
-msgstr ""
+msgstr "Чешская Республика"
 
 #: const/country.py:64
 msgid "Denmark"
-msgstr ""
+msgstr "Дания"
 
 #: const/country.py:65
 msgid "Djibouti"
-msgstr ""
+msgstr "Джибути"
 
 #: const/country.py:66
 msgid "Dominica"
-msgstr ""
+msgstr "Доминика"
 
 #: const/country.py:67
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Доминиканская Республика"
 
 #: const/country.py:68
 msgid "Ecuador"
-msgstr ""
+msgstr "Эквадор"
 
 #: const/country.py:69
 msgid "Egypt"
-msgstr ""
+msgstr "Египет"
 
 #: const/country.py:70
 msgid "El Salvador"
-msgstr ""
+msgstr "Сальвадор"
 
 #: const/country.py:71
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Экваториальная Гвинея"
 
 #: const/country.py:72
 msgid "Eritrea"
-msgstr ""
+msgstr "Эритрее"
 
 #: const/country.py:73
 msgid "Estonia"
-msgstr ""
+msgstr "Эстония"
 
 #: const/country.py:74
 msgid "Ethiopia"
-msgstr ""
+msgstr "Эфиопия"
 
 #: const/country.py:75
 msgid "Falkland Islands (Malvinas)"
-msgstr ""
+msgstr "Фолклендские (Мальвинские) острова"
 
 #: const/country.py:76
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Фарерские острова"
 
 #: const/country.py:77
 msgid "Fiji"
-msgstr ""
+msgstr "Фиджи"
 
 #: const/country.py:78
 msgid "Finland"
-msgstr ""
+msgstr "Финляндия"
 
 #: const/country.py:79
 msgid "France"
-msgstr ""
+msgstr "Франция"
 
 #: const/country.py:80
 msgid "French Guiana"
-msgstr ""
+msgstr "Французская Гвиана"
 
 #: const/country.py:81
 msgid "French Polynesia"
-msgstr ""
+msgstr "Французская Полинезия"
 
 #: const/country.py:82
 msgid "French Southern and Antarctic Lands"
-msgstr ""
+msgstr "Французские Южные и Антарктические территории"
 
 #: const/country.py:83
 msgid "Gabon"
-msgstr ""
+msgstr "Габон"
 
 #: const/country.py:84
 msgid "Gambia"
-msgstr ""
+msgstr "Гамбия"
 
 #: const/country.py:85
 msgid "Georgia"
-msgstr ""
+msgstr "Грузия"
 
 #: const/country.py:86
 msgid "Germany"
-msgstr ""
+msgstr "Германия"
 
 #: const/country.py:87
 msgid "Ghana"
-msgstr ""
+msgstr "Гана"
 
 #: const/country.py:88
 msgid "Gibraltar"
-msgstr ""
+msgstr "Гибралтар"
 
 #: const/country.py:89
 msgid "Greece"
-msgstr ""
+msgstr "Греция"
 
 #: const/country.py:90
 msgid "Greenland"
-msgstr ""
+msgstr "Гренландия"
 
 #: const/country.py:91
 msgid "Grenada"
-msgstr ""
+msgstr "Гренада"
 
 #: const/country.py:92
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Гваделупа"
 
 #: const/country.py:93
 msgid "Guam"
-msgstr ""
+msgstr "Гуам"
 
 #: const/country.py:94
 msgid "Guatemala"
-msgstr ""
+msgstr "Гватемала"
 
 #: const/country.py:95
 msgid "Guernsey"
-msgstr ""
+msgstr "Гернси"
 
 #: const/country.py:96
 msgid "Guinea"
-msgstr ""
+msgstr "Гвинея"
 
 #: const/country.py:97
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Гвинея-Бисау"
 
 #: const/country.py:98
 msgid "Guyana"
-msgstr ""
+msgstr "Гайана"
 
 #: const/country.py:99
 msgid "Haiti"
-msgstr ""
+msgstr "Гаити"
 
 #: const/country.py:100
 msgid "Heard Island and McDonald Islands"
-msgstr ""
+msgstr "Острова Херд и Макдональд"
 
 #: const/country.py:101
 msgid "Vatican City Holy See"
-msgstr ""
+msgstr "Ватикан"
 
 #: const/country.py:102
 msgid "Honduras"
-msgstr ""
+msgstr "Гондурас"
 
 #: const/country.py:103
 msgid "Hong Kong"
-msgstr ""
+msgstr "Гонконг"
 
 #: const/country.py:104
 msgid "Hungary"
-msgstr ""
+msgstr "Венгрия"
 
 #: const/country.py:105
 msgid "Iceland"
-msgstr ""
+msgstr "Исландия"
 
 #: const/country.py:106
 msgid "India"
-msgstr ""
+msgstr "Индия"
 
 #: const/country.py:107
 msgid "Indonesia"
-msgstr ""
+msgstr "Индонезия"
 
 #: const/country.py:108
 msgid "Iran"
-msgstr ""
+msgstr "Иран"
 
 #: const/country.py:109
 msgid "Iraq"
-msgstr ""
+msgstr "Ирак"
 
 #: const/country.py:110
 msgid "Ireland"
-msgstr ""
+msgstr "Ирландия"
 
 #: const/country.py:111
 msgid "Isle of Man"
-msgstr ""
+msgstr "Остров Мэн"
 
 #: const/country.py:112
 msgid "Israel"
-msgstr ""
+msgstr "Израиль"
 
 #: const/country.py:113
 msgid "Italy"
-msgstr ""
+msgstr "Италия"
 
 #: const/country.py:114
 msgid "Jamaica"
-msgstr ""
+msgstr "Ямайка"
 
 #: const/country.py:115
 msgid "Japan"
-msgstr ""
+msgstr "Япония"
 
 #: const/country.py:116
 msgid "Jersey"
-msgstr ""
+msgstr "Джерси"
 
 #: const/country.py:117
 msgid "Jordan"
-msgstr ""
+msgstr "Иордания"
 
 #: const/country.py:118
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Казахстан"
 
 #: const/country.py:119
 msgid "Kenya"
-msgstr ""
+msgstr "Кения"
 
 #: const/country.py:120
 msgid "Kiribati"
-msgstr ""
+msgstr "Кирибати"
 
 #: const/country.py:121
 msgid "North Korea"
-msgstr ""
+msgstr "Северная Корея"
 
 #: const/country.py:122
 msgid "South Korea"
-msgstr ""
+msgstr "Южная Корея"
 
 #: const/country.py:123
 msgid "Kuwait"
-msgstr ""
+msgstr "Кувейт"
 
 #: const/country.py:124
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Киргизия"
 
 #: const/country.py:125
 msgid "Laos Lao"
-msgstr ""
+msgstr "Лаос"
 
 #: const/country.py:126
 msgid "Latvia"
-msgstr ""
+msgstr "Латвия"
 
 #: const/country.py:127
 msgid "Lebanon"
-msgstr ""
+msgstr "Ливан"
 
 #: const/country.py:128
 msgid "Lesotho"
-msgstr ""
+msgstr "Лесото"
 
 #: const/country.py:129
 msgid "Liberia"
-msgstr ""
+msgstr "Либерия"
 
 #: const/country.py:130
 msgid "Libya Libyan Arab Jamahiriya"
-msgstr ""
+msgstr "Ливия"
 
 #: const/country.py:131
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Лихтенштейн"
 
 #: const/country.py:132
 msgid "Lithuania"
-msgstr ""
+msgstr "Литва"
 
 #: const/country.py:133
 msgid "Luxembourg"
-msgstr ""
+msgstr "Люксембург"
 
 #: const/country.py:134
 msgid "Macau Macao"
-msgstr ""
+msgstr "Макао"
 
 #: const/country.py:135
 msgid "Macedonia"
-msgstr ""
+msgstr "Македония"
 
 #: const/country.py:136
 msgid "Madagascar"
-msgstr ""
+msgstr "Мадагаскар"
 
 #: const/country.py:137
 msgid "Malawi"
-msgstr ""
+msgstr "Малави"
 
 #: const/country.py:138
 msgid "Malaysia"
-msgstr ""
+msgstr "Малайзия"
 
 #: const/country.py:139
 msgid "Maldives"
-msgstr ""
+msgstr "Мальдивы"
 
 #: const/country.py:140
 msgid "Mali"
-msgstr ""
+msgstr "Мали"
 
 #: const/country.py:141
 msgid "Malta"
-msgstr ""
+msgstr "Мальта"
 
 #: const/country.py:142
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Маршалловы острова"
 
 #: const/country.py:143
 msgid "Martinique"
-msgstr ""
+msgstr "Мартиника"
 
 #: const/country.py:144
 msgid "Mauritania"
-msgstr ""
+msgstr "Мавритания"
 
 #: const/country.py:145
 msgid "Mauritius"
-msgstr ""
+msgstr "Маврикий"
 
 #: const/country.py:146
 msgid "Mayotte"
-msgstr ""
+msgstr "Майотта"
 
 #: const/country.py:147
 msgid "Mexico"
-msgstr ""
+msgstr "Мексика"
 
 #: const/country.py:148
 msgid "Micronesia"
-msgstr ""
+msgstr "Микронезия"
 
 #: const/country.py:149
 msgid "Moldova"
-msgstr ""
+msgstr "Молдова"
 
 #: const/country.py:150
 msgid "Monaco"
-msgstr ""
+msgstr "Монако"
 
 #: const/country.py:151
 msgid "Mongolia"
-msgstr ""
+msgstr "Монголия"
 
 #: const/country.py:152
 msgid "Montenegro"
-msgstr ""
+msgstr "Черногория"
 
 #: const/country.py:153
 msgid "Montserrat"
-msgstr ""
+msgstr "Монтсеррат"
 
 #: const/country.py:154
 msgid "Morocco"
-msgstr ""
+msgstr "Марокко"
 
 #: const/country.py:155
 msgid "Mozambique"
-msgstr ""
+msgstr "Мозамбик"
 
 #: const/country.py:156
 msgid "Myanmar"
-msgstr ""
+msgstr "Мьянма"
 
 #: const/country.py:157
 msgid "Namibia"
-msgstr ""
+msgstr "Намибия"
 
 #: const/country.py:158
 msgid "Nauru"
-msgstr ""
+msgstr "Науру"
 
 #: const/country.py:159
 msgid "Nepal"
-msgstr ""
+msgstr "Непал"
 
 #: const/country.py:160
 msgid "Netherlands"
-msgstr ""
+msgstr "Нидерланды"
 
 #: const/country.py:161
 msgid "Netherlands Antilles"
-msgstr ""
+msgstr "Нидерландские Антильские острова"
 
 #: const/country.py:162
 msgid "New Caledonia"
-msgstr ""
+msgstr "Новая Каледония"
 
 #: const/country.py:163
 msgid "New Zealand"
-msgstr ""
+msgstr "Новая Заландия"
 
 #: const/country.py:164
 msgid "Nicaragua"
-msgstr ""
+msgstr "Никарагуа"
 
 #: const/country.py:165
 msgid "Niger"
-msgstr ""
+msgstr "Нигер"
 
 #: const/country.py:166
 msgid "Nigeria"
-msgstr ""
+msgstr "Нигерия"
 
 #: const/country.py:167
 msgid "Niue"
-msgstr ""
+msgstr "Ниуэ"
 
 #: const/country.py:168
 msgid "Norfolk Island Norfolk Island"
-msgstr ""
+msgstr "Остров Норфолк"
 
 #: const/country.py:169
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Северные Марианские острова"
 
 #: const/country.py:170
 msgid "Norway"
-msgstr ""
+msgstr "Норвегия"
 
 #: const/country.py:171
 msgid "Oman"
-msgstr ""
+msgstr "Оман"
 
 #: const/country.py:172
 msgid "Pakistan"
-msgstr ""
+msgstr "Пакистан"
 
 #: const/country.py:173
 msgid "Palau"
-msgstr ""
+msgstr "Палау"
 
 #: const/country.py:174
 msgid "Palestinian Territory"
-msgstr ""
+msgstr "Палестина"
 
 #: const/country.py:175
 msgid "Panama"
-msgstr ""
+msgstr "Панама"
 
 #: const/country.py:176
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Папуа-Новая Гвинея"
 
 #: const/country.py:177
 msgid "Paraguay"
-msgstr ""
+msgstr "Парагвай"
 
 #: const/country.py:178
 msgid "Peru"
-msgstr ""
+msgstr "Перу"
 
 #: const/country.py:179
 msgid "Philippines"
-msgstr ""
+msgstr "Филлипины"
 
 #: const/country.py:180
 msgid "Pitcairn Islands"
-msgstr ""
+msgstr "Острова Питкэрн"
 
 #: const/country.py:181
 msgid "Poland"
-msgstr ""
+msgstr "Польша"
 
 #: const/country.py:182
 msgid "Portugal"
-msgstr ""
+msgstr "Португалия"
 
 #: const/country.py:183
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Пуэрто-Рико"
 
 #: const/country.py:184
 msgid "Qatar"
-msgstr ""
+msgstr "Катар"
 
 #: const/country.py:185
 msgid "Reunion"
-msgstr ""
+msgstr "Реюньон"
 
 #: const/country.py:186
 msgid "Romania"
-msgstr ""
+msgstr "Румыния"
 
 #: const/country.py:187
 msgid "Russia"
-msgstr ""
+msgstr "Россия"
 
 #: const/country.py:188
 msgid "Rwanda"
-msgstr ""
+msgstr "Руанда"
 
 #: const/country.py:189
 msgid "Saint Helena"
-msgstr ""
+msgstr "Остров Святой Елены"
 
 #: const/country.py:190
 msgid "Saint Kitts and Nevis"
-msgstr ""
+msgstr "Сент-Китс и Невис"
 
 #: const/country.py:191
 msgid "Saint Lucia"
-msgstr ""
+msgstr "Сент-Люсия"
 
 #: const/country.py:192
 msgid "Saint Pierre and Miquelon"
-msgstr ""
+msgstr "Сен-Пьер и Микелон"
 
 #: const/country.py:193
 msgid "Saint Vincent and the Grenadines"
-msgstr ""
+msgstr "Сент-Винсент и Гренадины"
 
 #: const/country.py:194
 msgid "Samoa"
-msgstr ""
+msgstr "Самоа"
 
 #: const/country.py:195
 msgid "San Marino"
-msgstr ""
+msgstr "Сан-Марино"
 
 #: const/country.py:196
 msgid "Sao Tome and Principe"
-msgstr ""
+msgstr "Сан-Томе и Принсипи"
 
 #: const/country.py:197
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Саудовская Аравия"
 
 #: const/country.py:198
 msgid "Senegal"
-msgstr ""
+msgstr "Сенегал"
 
 #: const/country.py:199
 msgid "Serbia"
-msgstr ""
+msgstr "Сербия"
 
 #: const/country.py:200
 msgid "Seychelles"
-msgstr ""
+msgstr "Сейшельские Острова"
 
 #: const/country.py:201
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Сьерра-Леоне"
 
 #: const/country.py:202
 msgid "Singapore"
-msgstr ""
+msgstr "Сингапур"
 
 #: const/country.py:203
 msgid "Slovakia"
-msgstr ""
+msgstr "Словакия"
 
 #: const/country.py:204
 msgid "Slovenia"
-msgstr ""
+msgstr "Словения"
 
 #: const/country.py:205
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Соломоновы острова"
 
 #: const/country.py:206
 msgid "Somalia"
-msgstr ""
+msgstr "Сомали"
 
 #: const/country.py:207
 msgid "South Africa"
-msgstr ""
+msgstr "Южная Африка"
 
 #: const/country.py:208
 msgid "South Georgia and the South Sandwich Islands"
-msgstr ""
+msgstr "Южная Георгия"
 
 #: const/country.py:209
 msgid "Spain"
-msgstr ""
+msgstr "Испания"
 
 #: const/country.py:210
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Шри-Ланка"
 
 #: const/country.py:211
 msgid "Sudan"
-msgstr ""
+msgstr "Судан"
 
 #: const/country.py:212
 msgid "Suriname"
-msgstr ""
+msgstr "Суринам"
 
 #: const/country.py:213
 msgid "Svalbard and Jan Mayen"
-msgstr ""
+msgstr "Шпицберген"
 
 #: const/country.py:214
 msgid "Swaziland"
-msgstr ""
+msgstr "Свазиленд"
 
 #: const/country.py:215
 msgid "Sweden"
-msgstr ""
+msgstr "Швеция"
 
 #: const/country.py:216
 msgid "Switzerland"
-msgstr ""
+msgstr "Швейцария"
 
 #: const/country.py:217
 msgid "Syria"
-msgstr ""
+msgstr "Сирия"
 
 #: const/country.py:218
 msgid "Taiwan"
-msgstr ""
+msgstr "Тайвань"
 
 #: const/country.py:219
 msgid "Tajikistan"
-msgstr ""
+msgstr "Таджикистан"
 
 #: const/country.py:220
 msgid "Tanzania"
-msgstr ""
+msgstr "Танзания"
 
 #: const/country.py:221
 msgid "Thailand"
-msgstr ""
+msgstr "Таиланд"
 
 #: const/country.py:222
 msgid "East Timor"
-msgstr ""
+msgstr "Восточный Тимор"
 
 #: const/country.py:223
 msgid "Togo"
-msgstr ""
+msgstr "Того"
 
 #: const/country.py:224
 msgid "Tokelau"
-msgstr ""
+msgstr "Токелау"
 
 #: const/country.py:225
 msgid "Tonga"
-msgstr ""
+msgstr "Тонга"
 
 #: const/country.py:226
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Тринидад и Тобаго"
 
 #: const/country.py:227
 msgid "Tunisia"
-msgstr ""
+msgstr "Тунис"
 
 #: const/country.py:228
 msgid "Turkey"
-msgstr ""
+msgstr "Турция"
 
 #: const/country.py:229
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Туркменистан"
 
 #: const/country.py:230
 msgid "Turks and Caicos Islands"
-msgstr ""
+msgstr "Острова Теркс и Кайкос"
 
 #: const/country.py:231
 msgid "Tuvalu"
-msgstr ""
+msgstr "Тувалу"
 
 #: const/country.py:232
 msgid "Uganda"
-msgstr ""
+msgstr "Уганда"
 
 #: const/country.py:233
 msgid "Ukraine"
-msgstr ""
+msgstr "Украина"
 
 #: const/country.py:234
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Объединенные Арабские Эмираты"
 
 #: const/country.py:235
 msgid "United Kingdom"
-msgstr ""
+msgstr "Великобритания"
 
 #: const/country.py:236
 msgid "United States"
-msgstr ""
+msgstr "Соединенные Штаты"
 
 #: const/country.py:237
 msgid "United States Minor Outlying Islands"
-msgstr ""
+msgstr "Соединенные Штаты. Внешние Малые Острова"
 
 #: const/country.py:238
 msgid "Uruguay"
-msgstr ""
+msgstr "Уругвай"
 
 #: const/country.py:239
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Узбекистан"
 
 #: const/country.py:240
 msgid "Vanuatu"
-msgstr ""
+msgstr "Вануату"
 
 #: const/country.py:241
 msgid "Venezuela"
-msgstr ""
+msgstr "Венесуэла"
 
 #: const/country.py:242
 msgid "Vietnam Viet Nam"
-msgstr ""
+msgstr "Вьетнам"
 
 #: const/country.py:243
 msgid "British Virgin Islands"
-msgstr ""
+msgstr "Британские Виргинские острова"
 
 #: const/country.py:244
 msgid "United States Virgin Islands"
-msgstr ""
+msgstr "Виргинские острова Соединенных Штатов"
 
 #: const/country.py:245
 msgid "Wallis and Futuna"
-msgstr ""
+msgstr "Уоллис и Футуна"
 
 #: const/country.py:246
 msgid "Western Sahara"
-msgstr ""
+msgstr "Западная Сахара"
 
 #: const/country.py:247
 msgid "Yemen"
-msgstr ""
+msgstr "Йемен"
 
 #: const/country.py:248
 msgid "Zambia"
-msgstr ""
+msgstr "Замбия"
 
 #: const/country.py:249
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Зимбабве"
 
 #: const/postaladdressprefix.py:6
 msgid "Company"
-msgstr ""
+msgstr "Компания"
 
 #: const/postaladdressprefix.py:7
 msgid "Mrs"
-msgstr ""
+msgstr "Мсс"
 
 #: const/postaladdressprefix.py:8
 msgid "Mr"
-msgstr ""
+msgstr "Мр"
 
 #: const/postaladdressprefix.py:9
 msgid "Ms"
-msgstr ""
+msgstr "Мс"
 
 #: const/purpose.py:6
 msgid "Delivery Address"
-msgstr ""
+msgstr "Адрес доставки"
 
 #: const/purpose.py:7
 msgid "Billing Address"
-msgstr ""
+msgstr "Адрес для выставления счета"
 
 #: const/purpose.py:8
 msgid "Contact Address"
-msgstr ""
+msgstr "Адрес контакта"
 
 #: const/purpose.py:12
 msgid "Private"
-msgstr ""
+msgstr "Приватный"
 
 #: const/purpose.py:13
 msgid "Business"
-msgstr ""
+msgstr "Деловой"
 
 #: const/purpose.py:14
 msgid "Mobile Private"
-msgstr ""
+msgstr "Мобильный приватный"
 
 #: const/purpose.py:15
 msgid "Mobile Business"
-msgstr ""
+msgstr "Мобильный деловой"
 
 #: const/status.py:6
 msgid "Payed"
-msgstr ""
+msgstr "Оплачено"
 
 #: const/status.py:8
 msgid "Invoice sent"
-msgstr ""
+msgstr "Счет отправлен"
 
 #: const/status.py:9 const/status.py:19
 msgid "First reminder sent"
-msgstr ""
+msgstr "Первое напоминание отправлено"
 
 #: const/status.py:10 const/status.py:20
 msgid "Second reminder sent"
-msgstr ""
+msgstr "Второе напоминание отправлено"
 
 #: const/status.py:11
 msgid "Customer cant pay"
-msgstr ""
+msgstr "Заказчик не платит"
 
 #: const/status.py:12 const/status.py:21
 msgid "Deleted"
-msgstr ""
+msgstr "Удалено"
 
 #: const/status.py:16
 msgid "Success"
-msgstr ""
+msgstr "Успешно"
 
 #: const/status.py:18
 msgid "Quote sent"
-msgstr ""
+msgstr "Квота отправлена"
 
 #: const/status.py:25
 msgid "Ordered"
-msgstr ""
+msgstr "Закозан"
 
 #: const/status.py:26
 msgid "Delayed"
-msgstr ""
+msgstr "В ожидании"
 
 #: const/status.py:27
 msgid "Delivered"
-msgstr ""
+msgstr "Отправлен"
 
 #: const/status.py:28
 msgid "Invoice registered"
-msgstr ""
+msgstr "Счен зарегистрирован"
 
 #: const/status.py:29
 msgid "Invoice payed"
-msgstr ""
+msgstr "Счет оплачен"
 
 #: management/commands/koalixcrm_install_defaulttemplates.py:84
 msgid "John Smit, Sample Company, 8976 Smallville"
-msgstr ""
+msgstr "Джон Смит, Компания Пример, 8976, Малый Городок"
 
 #: management/commands/koalixcrm_install_defaulttemplates.py:86
 msgid ""
 "According to your wishes the contract consists of the following positions:"
 msgstr ""
+"Согласно Вашему желанию, договор состоит из следующих позиций:"
 
 #: management/commands/koalixcrm_install_defaulttemplates.py:87
 msgid ""
 "Thank you for your interest in our company \n"
 " Best regards"
 msgstr ""
+"Спасибо за ваш интерес к нашей компании \n"
+" С уважением"
 
 #: management/commands/koalixcrm_install_defaulttemplates.py:88
 msgid "We would like to order the following positions:"
-msgstr ""
+msgstr "Мы хотели бы заказать следующие позиции:"
 
 #: management/commands/koalixcrm_install_defaulttemplates.py:89
 msgid "Best regards"
-msgstr ""
+msgstr "С уважением"
 
 #: management/commands/koalixcrm_install_defaulttemplates.py:90
 msgid "Sample Company"
-msgstr ""
+msgstr "Пример Компания"
 
 #: management/commands/koalixcrm_install_defaulttemplates.py:91
 msgid "Sample Address"
-msgstr ""
+msgstr "Пример Адрес"

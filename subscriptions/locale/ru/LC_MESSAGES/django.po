@@ -21,80 +21,80 @@ msgstr ""
 
 #: admin.py:32 admin.py:43 admin.py:79
 msgid "Basics"
-msgstr ""
+msgstr "Основные"
 
 #: admin.py:68
 msgid "Create Invoice"
-msgstr ""
+msgstr "Создать счет на оплату"
 
 #: admin.py:90
 msgid "Create Subscription"
-msgstr ""
+msgstr "Создать подписку"
 
 #: models.py:9 models.py:10 models.py:75
 msgid "Subscription Type"
-msgstr ""
+msgstr "Тип подписки"
 
 #: models.py:46 models.py:50
 msgid "Subscription"
-msgstr ""
+msgstr "Подписка"
 
 #: models.py:47
 msgid "Subscriptions"
-msgstr ""
+msgstr "Подписки"
 
 #: models.py:51
 msgid "Event Date"
-msgstr ""
+msgstr "Дата события"
 
 #: models.py:52
 msgid "Event"
-msgstr ""
+msgstr "Событие"
 
 #: models.py:60
 msgid "Subscription Event"
-msgstr ""
+msgstr "Событие подписки"
 
 #: models.py:61
 msgid "Subscription Events"
-msgstr ""
+msgstr "События подписки"
 
 #: models.py:65
 msgid "Cancelation Period (months)"
-msgstr ""
+msgstr "Отмененный период (месяцы)"
 
 #: models.py:66
 msgid "Automatic Contract Extension (months)"
-msgstr ""
+msgstr "Автоматическое расширение контракта (месяцы)"
 
 #: models.py:67
 msgid "Automatic Contract Extensoin Reminder (days)"
-msgstr ""
+msgstr "Нопоминания об автоматическом расширении контракта (дни)"
 
 #: models.py:68
 msgid "Minimum Contract Duration"
-msgstr ""
+msgstr "Минимальная длительность контракта"
 
 #: models.py:69
 msgid "Payment Intervall (days)"
-msgstr ""
+msgstr "Интервал оплаты (дни)"
 
 #: models.py:70
 msgid "Contract Documents"
-msgstr ""
+msgstr "Документы контракта"
 
 #: models.py:76
 msgid "Subscription Types"
-msgstr ""
+msgstr "Типы подписок"
 
 #: const/events.py:6
 msgid "Offered"
-msgstr ""
+msgstr "Предложено"
 
 #: const/events.py:7
 msgid "Canceled"
-msgstr ""
+msgstr "Отменено"
 
 #: const/events.py:8
 msgid "Signed"
-msgstr ""
+msgstr "Подписано"

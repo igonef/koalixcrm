@@ -21,136 +21,136 @@ msgstr ""
 
 #: admin.py:12 admin.py:23 admin.py:34 admin.py:47 admin.py:64 admin.py:77
 msgid "Basics"
-msgstr ""
+msgstr "Основные"
 
 #: models.py:10 models.py:38
 msgid "Title"
-msgstr ""
+msgstr "Заголовок"
 
 #: models.py:11 models.py:16
 msgid "XSL File"
-msgstr ""
+msgstr "XSL-файл"
 
 #: models.py:17
 msgid "XSL Files"
-msgstr ""
+msgstr "XSL-файлы"
 
 #: models.py:30
 msgid "User Extention"
-msgstr ""
+msgstr "Расширение пользователя"
 
 #: models.py:31
 msgid "User Extentions"
-msgstr ""
+msgstr "Расширения пользователей"
 
 #: models.py:37
 msgid "Name of the Organisation"
-msgstr ""
+msgstr "Наименование организации"
 
 #: models.py:39
 msgid "XSL File for Invoice"
-msgstr ""
+msgstr "XSL-файл счета на оплату"
 
 #: models.py:40
 msgid "XSL File for Quote"
-msgstr ""
+msgstr "XSL-файл для квоты"
 
 #: models.py:41
 msgid "XSL File for Purchaseorder"
-msgstr ""
+msgstr "XSL-файл для заказа на покупку"
 
 #: models.py:42
 msgid "XSL File for Purchase Confirmation"
-msgstr ""
+msgstr "XSL-файл для соглашения о покупке"
 
 #: models.py:43
 msgid "XSL File for Deilvery Order"
-msgstr ""
+msgstr "XSL-файл для заказа на отправку"
 
 #: models.py:44
 msgid "XSL File for Profit Loss Statement"
-msgstr ""
+msgstr "XSL-файл для отчета о прибылях и убытках"
 
 #: models.py:45
 msgid "XSL File for Balancesheet"
-msgstr ""
+msgstr "XSL-файл для балансового счета"
 
 #: models.py:46
 msgid "Logo for the PDF generation"
-msgstr ""
+msgstr "Лого для генерации PDF"
 
 #: models.py:47
 msgid "Reference to Banking Account"
-msgstr ""
+msgstr "Ссылка на банковский счет"
 
 #: models.py:48
 msgid "Addresser"
-msgstr ""
+msgstr "Адресант"
 
 #: models.py:49
 msgid "FOP Configuration File"
-msgstr ""
+msgstr "Файл конфигурации FOP"
 
 #: models.py:50
 msgid "Footer Text On Salesorders"
-msgstr ""
+msgstr "Текст подвала для заказов на реализацию"
 
 #: models.py:51
 msgid "Header Text On Salesorders"
-msgstr ""
+msgstr "Текст шапки для заказов на реализацию"
 
 #: models.py:52
 msgid "Header Text On Purchaseorders"
-msgstr ""
+msgstr "Текст шапки для заказов на продажу"
 
 #: models.py:53
 msgid "Footer Text On Purchaseorders"
-msgstr ""
+msgstr "Текст подвала для заказов на продажу"
 
 #: models.py:54
 msgid "Page Footer Left"
-msgstr ""
+msgstr "Подвал страницы слева"
 
 #: models.py:55
 msgid "Page Footer Middle"
-msgstr ""
+msgstr "Подвал страницы посередине"
 
 #: models.py:60
 msgid "Templateset"
-msgstr ""
+msgstr "Набор шаблонов"
 
 #: models.py:61
 msgid "Templatesets"
-msgstr ""
+msgstr "Наборы шаблонов"
 
 #: models.py:68 models.py:81 models.py:94
 msgid "Purpose"
-msgstr ""
+msgstr "Назначение"
 
 #: models.py:77 models.py:78
 msgid "Postal Address for User Extention"
-msgstr ""
+msgstr "Почтовый адрес для расширении пользователя"
 
 #: models.py:90 models.py:91
 msgid "Phonenumber for User Extention"
-msgstr ""
+msgstr "Номер телефона для расширении пользователя"
 
 #: models.py:103 models.py:104
 msgid "Email Address for User Extention"
-msgstr ""
+msgstr "Email-адрес для расширении пользователя"
 
 #: const/purpose.py:6
 msgid "Private"
-msgstr ""
+msgstr "Приватный"
 
 #: const/purpose.py:7
 msgid "Business"
-msgstr ""
+msgstr "Деловой"
 
 #: const/purpose.py:8
 msgid "Mobile Private"
-msgstr ""
+msgstr "Мобильный приватный"
 
 #: const/purpose.py:9
 msgid "Mobile Business"
-msgstr ""
+msgstr "Мобильный деловой"

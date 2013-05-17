@@ -21,44 +21,44 @@ msgstr ""
 
 #: dashboard.py:26
 msgid "Group: Administration & Applications"
-msgstr ""
+msgstr "Группа: Администрирование и приложения"
 
 #: dashboard.py:31
 msgid "Administration"
-msgstr ""
+msgstr "Администрирование"
 
 #: dashboard.py:38
 msgid "Applications"
-msgstr ""
+msgstr "Приложения"
 
 #: dashboard.py:49
 msgid "ModelList: Administration"
-msgstr ""
+msgstr "Список моделей: Flvbybcnhbhjdfybt"
 
 #: dashboard.py:57
 msgid "Media Management"
-msgstr ""
+msgstr "Управление медиа"
 
 #: dashboard.py:61
 msgid "FileBrowser"
-msgstr ""
+msgstr "ФайлБраузер"
 
 #: dashboard.py:70
 msgid "Support"
-msgstr ""
+msgstr "Поддержка"
 
 #: dashboard.py:74
 msgid "koalixcrm documentation"
-msgstr ""
+msgstr "Документация koalixcrm"
 
 #: dashboard.py:79
 msgid "koalixcrm \"koalixcrm-user\" mailing list"
-msgstr ""
+msgstr "koalixcrm \"koalixcrm-user\" список рассылки"
 
 #: dashboard.py:88
 msgid "Latest koalixcrm News"
-msgstr ""
+msgstr "Последние новости koalixcrm"
 
 #: dashboard.py:96
 msgid "Recent Actions"
-msgstr ""
+msgstr "Последние действия"
